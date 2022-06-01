@@ -1358,8 +1358,13 @@ a,ul,li {
             color: black;
             text-transform: uppercase;
             font-family: 'Roboto', sans-serif;
+            transition: all .5s;
         }
 
+        .headerul ul li:hover {
+            font-weight: 500;
+            transform: scale(1.02);
+        }
 
         .ul-two {
             display: flex;
@@ -1369,6 +1374,10 @@ a,ul,li {
             border: 1px solid rgba(0, 0, 0, 0.384);
             height: 20px;
             margin-right: 5;
+        }
+
+        .fa-arrow-right-to-bracket:hover {
+            transform: scale(1.4);
         }
          
     
@@ -1406,6 +1415,12 @@ a,ul,li {
         .nav-section-two a {
             margin-left: 8;
             color: black;
+            transition: all .6s;
+        }
+
+        .nav-section-two a:hover {
+            color: white;
+            opacity: 0.7;
         }
 
         .nav-section-two input {
@@ -1420,12 +1435,14 @@ a,ul,li {
         .nav-section-three a {
             color: black;
             font-size: 20;
+            transition: all .6s;
         }
 
         .nav-section-three a:hover {
             transition: all .6s;
             color: rgb(255, 255, 255);
             font-size: 20;
+            opacity: .7;
         }
 
         .nav-section-one li a {
@@ -1434,10 +1451,22 @@ a,ul,li {
             text-transform: uppercase;
             font-family: 'Roboto', sans-serif;
         }
+
+        .nav-section-one li {
+            transition: .5s;
+        }
+
+        .nav .nav-section-one li:hover {
+            transform: scale(1.03);
+        }
     
         .nav-logo img {
             width: 70px;
             margin-left: 20;
+        }
+
+        .nav-logo img:hover {
+            content: url(images/logo1.png);
         }
     
         .destacados-boxs-two {
@@ -1452,7 +1481,7 @@ a,ul,li {
             height: auto;
             display: grid;
             grid-template: 
-            "section-one-destacados" 100px
+            "section-one-destacados" 80px
             "section-one-destacados-box" 600px
             "section-one-acerca-de" 100px;
         }
@@ -1501,14 +1530,14 @@ a,ul,li {
         }
     
         .scroll img {
-            margin-top: 420;
+            margin-top: 460;
             padding: 8;
             opacity: .7;
         }
     
         .destacados-boxs-one,.destacados-boxs-two {
-            width: 300px;
-            height: 400px;
+            width: 23rem;
+            height: 29rem;
             border: 1px solid rgba(0, 0, 0, 0.253);
             box-shadow: 0px 0px 5px 0px;
             background-color: #f8f5f5;
@@ -1623,14 +1652,15 @@ a,ul,li {
         .divs-all {
             display: flex;
             align-items: center;
-            max-width: 800px;
+            max-width: 1200px;
             margin: 0 auto;
         
         }
     
         .divs-all img {
             padding: 40;
-            width: 300px;
+            width: 500px;
+            margin-right: 50;
             
         }
     
@@ -1639,7 +1669,7 @@ a,ul,li {
             font-family: 'Inter', sans-serif;
             text-align: center;
             padding:40;
-            width: 400px;
+            width: 500px;
         }
     
         .section-two-div-two {
