@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet"> 
     <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -153,14 +154,39 @@
 
         <div class="section-three">
 
-            <div class="h2-three"><h2>experiencias</h2></div>
-
-            <div class="experiencia-box">
-                <div class="center-box">
-                <img src="images/Ellipse 87.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                <h2>gianfranco chiariello</h2>
-                <p>ceo on ml</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-center m-auto">
+                        <h2 class="h2-experiencias">Experiencias</h2>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="item carousel-item active">
+                                    <div class="img-box"><img  src="images/WhatsApp Image 2022-04-02 at 4.12.05 PM.jpeg" alt=""></div>
+                                    <p class="testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur harum quibusdam cumque enim perferendis similique quo reprehenderit ipsum quis.</p>
+                                    <p class="overview"><b>Gianfranco Chiariello</b>, CEO on Andromeda</p>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="img-box"><img  src="images/tania-medina-qN1iD0wm6b0-unsplash.jpg" alt=""></div>                            
+                                    <p class="testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur harum quibusdam cumque enim perferendis similique quo reprehenderit ipsum quis.</p>
+                                    <p class="overview"><b>Lorem</b>, CEO on Andromeda</p>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="img-box"><img  src="images/tania-medina-zwsL1bj_yKA-unsplash.jpg" alt=""></div>                            
+                                    <p class="testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur harum quibusdam cumque enim perferendis similique quo reprehenderit ipsum quis.</p>
+                                    <p class="overview"><b>Lorem</b>, CEO on Andromeda</p>
+                                </div>
+        
+                            </div>
+        
+                            <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                <i class="fa fa-angle-left"></i>
+                            </a> 
+                            <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                                <i class="fa fa-angle-right"></i>
+                            </a> 
+        
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -231,5 +257,9 @@
             <i class="fa-solid fa-chevron-up"></i>
         </div>
     </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
 </html>
