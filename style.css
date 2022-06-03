@@ -590,6 +590,16 @@ a,ul,li {
 
     }
 
+    .text-container h2 {
+        font-size: 25;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;     
+        padding-bottom: 10;
+    }
+
+    .text-container h2::first-letter {
+        color: #56439b;
+    }
+
     .text-container {grid-area: text-container;}
     .box-container {grid-area: box-container;}
 
@@ -1573,6 +1583,16 @@ a,ul,li {
 
             .text-container {grid-area: text-container;}
             .box-container {grid-area: box-container;}
+
+            .text-container h2 {
+                font-size: 25;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;     
+                padding-bottom: 10;
+            }
+        
+            .text-container h2::first-letter {
+                color: #56439b;
+            }
 
             .boxs-container {
                 display: grid;
@@ -2695,6 +2715,16 @@ a,ul,li {
 
             .text-container {grid-area: text-container;}
             .box-container {grid-area: box-container;}
+
+            .text-container h2 {
+                font-size: 25;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;     
+                padding-bottom: 10;
+            }
+        
+            .text-container h2::first-letter {
+                color: #56439b;
+            }
 
             .boxs-container {
                 display: grid;
