@@ -13,7 +13,7 @@ $negro: rgba(0, 0, 0, 0.945);
     display: grid;
     grid-template: 
     "header" 0
-    "nav" 700px
+    "nav" 70px
     "section-one" auto
     "section-two" auto
     "section-three" auto
@@ -374,7 +374,7 @@ $negro: rgba(0, 0, 0, 0.945);
                     position: absolute;
                     display: inline-block;
                     color: rgba(0, 0, 0,0.8);
-                    text-shadow: 0 3px 3px #e6e6e6e, 0 0 0 #000;
+                    text-shadow: 0 3px 3px , 0 0 0 #000;
                 }
             }
 
@@ -914,22 +914,4 @@ $negro: rgba(0, 0, 0, 0.945);
             }
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
