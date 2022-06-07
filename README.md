@@ -1,1 +1,0 @@
-# Chiariello-Andromeda
