@@ -765,7 +765,7 @@ a, ul, li {
     grid-template: "background-container" 160px "input-container" auto;
   }
   .contact-container .background-container {
-    background-image: url("../images/Rectangle 132.png");
+    background-image: url("../images/Contacto.png");
     background-size: cover;
     background-position: center;
   }
@@ -1564,7 +1564,7 @@ a, ul, li {
     grid-template: "background-container" 160px "input-container" auto;
   }
   .contact-container .background-container {
-    background-image: url("../images/Rectangle 132.png");
+    background-image: url("../images/Contacto.png");
     background-size: cover;
     background-position: center;
   }
@@ -2334,7 +2334,7 @@ a, ul, li {
     grid-template: "background-container" 300px "input-container";
   }
   .grid-container-contacto .contact-container .background-container {
-    background-image: url("../images/Rectangle 132.png");
+    background-image: url("../images/Contacto.png");
     background-size: cover;
     background-position: center;
   }
