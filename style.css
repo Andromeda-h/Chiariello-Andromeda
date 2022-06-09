@@ -76,21 +76,21 @@ a, ul, li {
     grid-area: nav;
   }
   .section-one {
-    background-image: url("../images/Group 35.png");
+    background-image: url("../images/Group35.png");
     background-position: 40%;
     background-repeat: no-repeat;
     background-size: cover;
     grid-area: section-one;
   }
   .section-two {
-    background-image: url("../images/Group 35 (1).png");
+    background-image: url("../images/Group351.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     grid-area: section-two;
   }
   .section-three {
-    background-image: url("../images/Component 54 (1).png");
+    background-image: url("../images/Component541.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -853,21 +853,21 @@ a, ul, li {
     grid-area: nav;
   }
   .section-one {
-    background-image: url("../images/Group 35.png");
+    background-image: url("../images/Group35.png");
     background-position: 40%;
     background-repeat: no-repeat;
     background-size: cover;
     grid-area: section-one;
   }
   .section-two {
-    background-image: url("../images/Group 35 (1).png");
+    background-image: url("../images/Group351.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     grid-area: section-two;
   }
   .section-three {
-    background-image: url("../images/Component 54 (1).png");
+    background-image: url("../images/Component541.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1658,20 +1658,20 @@ a, ul, li {
     grid-area: nav;
   }
   .section-one {
-    background-image: url("../images/Component 55.png");
+    background-image: url("../images/Component55.png");
     background-position: 40%;
     background-repeat: no-repeat;
     background-size: cover;
     grid-area: section-one;
   }
   .section-two {
-    background-image: url("../images/Component 56.png");
+    background-image: url("../images/Component56.png");
     background-position: center;
     background-repeat: no-repeat;
     grid-area: section-two;
   }
   .section-three {
-    background-image: url("../images/DESIGN 6.png");
+    background-image: url("../images/design6.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
