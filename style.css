@@ -29,6 +29,10 @@ a, ul, li {
   background: #56439b;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* Grid Layout */
 .grid-container {
   display: grid;
@@ -60,6 +64,7 @@ a, ul, li {
   grid-area: footer;
 }
 
+/* Nav btrs responsive */
 .navbar-dark {
   background-color: #6C53C8;
 }
