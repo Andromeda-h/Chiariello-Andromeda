@@ -1,8 +1,7 @@
 /* Default */
-
-*    {margin: 0;padding:0;box-sizing: border-box;}
-html {width: 100%;height: 100%;}
-a,ul,li {text-decoration: none; list-style: none;}
+*{margin: 0;padding:0;box-sizing: border-box;}
+html{width: 100%;height: 100%;}
+a,ul,li{text-decoration: none; list-style: none;}
 
 /* Variables */
 
@@ -38,8 +37,10 @@ body {overflow-x: hidden;}
 .section-three { grid-area: section-three;}
 .footer {background-color: $violet; grid-area: footer;}
 
+/* Nav btrs responsive */
+
 .navbar-dark  {
-    background-color: #6C53C8;
+    background-color: $violet;
 }
 
 .form-control  {
