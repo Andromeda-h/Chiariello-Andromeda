@@ -31,8 +31,74 @@ $white: whitesmoke;
 }
 
 .header { grid-area: header;}
-.nav { background-color: $violet; grid-area: nav;}
+.nav { grid-area: nav;}
 .section-one { grid-area: section-one;}
 .section-two { grid-area: section-two;}
 .section-three { grid-area: section-three;}
 .footer {background-color: $violet; grid-area: footer;}
+
+.navbar-dark  {
+    background-color: #6C53C8;
+}
+
+.form-control  {
+    border-radius: 4px!important;
+    height: 25px!important;
+    width: 200px!important;
+    opacity: .8;
+}
+
+.navbar {
+    padding: 0 10!important;
+    margin: 0!important;
+}
+
+.navbar-nav {
+    margin-left: 80px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    justify-content: start;
+}
+
+.nav-item a {
+    transition: all .6s;
+    text-align:left;
+
+}
+
+.nav-item a:hover {
+    transform: scale(1.01);
+}
+
+.navbar-collapse {
+    padding: 10;
+    text-align: center;
+
+    form {
+        justify-content: center;
+    }
+}
+
+.collapse a i {
+    margin-left: 20px;
+    color: black;
+    transition: all .5s;
+    font-size: 18;
+}
+
+.fa-moon {
+    margin-left: 30px!important;
+}
+
+.collapse a i:hover {
+    color: rgba(202, 202, 202, 0.699);
+}
+
+.navbar-toggler {
+    border: none!important;
+    font-size: 25px!important;
+}

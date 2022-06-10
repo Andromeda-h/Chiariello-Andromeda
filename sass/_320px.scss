@@ -12,8 +12,7 @@ $negro: rgba(0, 0, 0, 0.945);
 .grid-container {
     display: grid;
     grid-template: 
-    "header" 0
-    "nav" 70px
+    "nav" auto
     "section-one" auto
     "section-two" auto
     "section-three" auto
@@ -22,7 +21,7 @@ $negro: rgba(0, 0, 0, 0.945);
 }
 
 .header { grid-area: header;}
-.nav { background-color: $violet; grid-area: nav;}
+.nav {grid-area: nav;}
 .section-one {background-image: url("../images/Group35.png");  background-position: 40%; background-repeat: no-repeat; background-size: cover; grid-area: section-one;}
 .section-two {background-image: url("../images/Group351.png"); background-position: center; background-repeat: no-repeat; background-size: cover; grid-area: section-two;}
 .section-three {background-image: url("../images/Component541.png"); background-position: center; background-repeat: no-repeat; background-size: cover; grid-area: section-three;}
@@ -36,36 +35,6 @@ $negro: rgba(0, 0, 0, 0.945);
     display: none;
 }
 
-/* NAV */   
-    
-    /* NAV: display:none */
-
-    .nav-section-one,.nav-section-two,.nav-section-three {
-        display: none;
-    }
-
-    /* NAV */  
-    
-    .nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 20 0 0;
-
-        .nav-logo {
-            img {
-                width: 80px;
-            }
-        }
-
-        .menu-hamburguesa {
-            i {
-                font-size: 30px;
-                color: $white;
-                opacity: .7;
-            }
-        }   
-    }
 
 
 /* SECTION ONE */
@@ -576,8 +545,7 @@ $negro: rgba(0, 0, 0, 0.945);
     .grid-container-nosotros {
         display: grid;
         grid-template: 
-        "header" 0
-        "nav" 70px
+        "nav" auto
         "titles-team-andromeda" 250px
         "team-container" auto
         "footer-mobile" 20px;
@@ -721,6 +689,7 @@ $negro: rgba(0, 0, 0, 0.945);
                         flex-direction: column;
                         justify-content: center;
                         margin: 25 0;
+                        background-color: transparent;
 
                         .progress-container {
                             display: grid;
@@ -814,7 +783,7 @@ $negro: rgba(0, 0, 0, 0.945);
         height: 100%;
         display: grid;
         grid-template:
-        "nav" 71px
+        "nav" auto
         "contact-container" 700px
         "footer-mobile" 20px;
     }

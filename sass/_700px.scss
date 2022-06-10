@@ -16,7 +16,7 @@ $negro: rgba(0, 0, 0, 0.945);
         display: grid;
         grid-template: 
         "header" 41px
-        "nav" 70px
+        "nav" auto
         "section-one" auto
         "section-two" auto
         "section-three" auto
@@ -25,7 +25,7 @@ $negro: rgba(0, 0, 0, 0.945);
     }
 
     .header { background-color: rgb(255, 255, 255); grid-area: header;}
-    .nav { background-color: #6C53C8; grid-area: nav;}
+    .nav {grid-area: nav;}
     .section-one {background-image: url("../images/Group35.png");  background-position: 40%; background-repeat: no-repeat; background-size: cover; grid-area: section-one;}
     .section-two {background-image: url("../images/Group351.png"); background-position: center; background-repeat: no-repeat; background-size: cover; grid-area: section-two;}
     .section-three {background-image: url("../images/Component541.png"); background-position: center; background-repeat: no-repeat; background-size: cover; grid-area: section-three;}
@@ -75,27 +75,6 @@ $negro: rgba(0, 0, 0, 0.945);
     p,a,li,ul {
         padding: 0;
         margin: 0;
-    }
-
-/* NAV */  
-
-    .nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 20 0 0;
-
-        .nav-logo{
-            img {
-                width: 80px;
-            }
-        }
-
-        .menu-hamburguesa i {
-            font-size: 30px;
-            color: white;
-            opacity: .7;
-        }
     }
 
 
@@ -549,7 +528,7 @@ $negro: rgba(0, 0, 0, 0.945);
 
 .grid-container-cursos {
     .cursos-container {
-        width: 100%;
+        width: 100vw;
         display: grid;
         grid-template:
         "text-container" 110px
@@ -605,7 +584,7 @@ $negro: rgba(0, 0, 0, 0.945);
     display: grid;
     grid-template: 
     "header" 41px
-    "nav" 70px
+    "nav" auto
     "titles-team-andromeda" 100px
     "team-container" 850px
     "footer-mobile" 20px;
@@ -751,6 +730,7 @@ $negro: rgba(0, 0, 0, 0.945);
                     flex-direction: column;
                     justify-content: center;
                     margin: 25 0;
+                    background-color: transparent;
 
                     .progress-container {
                         display: grid;
@@ -844,7 +824,7 @@ $negro: rgba(0, 0, 0, 0.945);
     display: grid;
     grid-template:
     "header" 41px
-    "nav" 71px
+    "nav" auto
     "contact-container" auto
     "footer-mobile" 20px;
 }
@@ -853,6 +833,12 @@ $negro: rgba(0, 0, 0, 0.945);
 .nav {grid-area: nav;}
 .contact-container {grid-area: contact-container;}
 .footer-mobile {grid-area: footer-mobile;}
+
+.header {
+    ul {
+        margin: 0;
+    }
+}
 
 .contact-container {
     display: grid;
