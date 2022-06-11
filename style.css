@@ -1805,6 +1805,125 @@ body {
   .footer-mobile {
     display: none;
   }
+  /*animation*/
+  @import 'animate.css';
+  @keyframes slide {
+    0% {
+      left: -400px;
+    }
+    5% {
+      left: -55;
+    }
+    98% {
+      left: -55;
+    }
+    99% {
+      left: -100;
+    }
+    100% {
+      left: -300px;
+    }
+  }
+  @keyframes box-back {
+    0% {
+      left: 165;
+    }
+    5% {
+      left: 165;
+    }
+    98% {
+      left: 165;
+    }
+    99% {
+      left: -100;
+    }
+    100% {
+      left: -700;
+    }
+  }
+  .animation-container .box-container-animation {
+    position: absolute;
+    top: 305;
+    left: -600;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3294117647);
+    border: 1px solid #fd7900;
+    width: 100px;
+    height: 110px;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 1000;
+    animation: box-back 6s, jackInTheBox 0.7s;
+    animation-delay: 2s;
+  }
+  .animation-container .box-container-animation::after {
+    position: absolute;
+    content: "";
+    bottom: -10;
+    left: -7;
+    width: 7;
+    height: 7;
+    background: rgba(253, 122, 0, 0.6156862745);
+    border-radius: 50%;
+  }
+  .animation-container .box-container-animation::before {
+    content: "";
+    position: absolute;
+    bottom: -17;
+    left: -12;
+    width: 5px;
+    height: 5px;
+    background: rgba(253, 122, 0, 0.6156862745);
+    border-radius: 50%;
+  }
+  .animation-container .box-container-animation h2 {
+    color: #d16602;
+    font-size: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .animation-container .box-container-animation .sociall {
+    display: flex;
+  }
+  .animation-container .box-container-animation .sociall a::after {
+    content: "";
+    position: absolute;
+    bottom: -23;
+    left: -16;
+    width: 3px;
+    height: 3px;
+    background: rgba(253, 122, 0, 0.1647058824);
+    border-radius: 50%;
+  }
+  .animation-container .box-container-animation .sociall .fa-instagram {
+    color: #E1306C;
+  }
+  .animation-container .box-container-animation .sociall .fa-twitter-square {
+    color: #00acee;
+  }
+  .animation-container .box-container-animation .sociall .fa-whatsapp-square {
+    color: #25D366;
+  }
+  .animation-container .box-container-animation .sociall .fa-brands {
+    margin: 20 5 0;
+  }
+  .animation-container .image-container-animation {
+    position: absolute;
+    top: 400;
+    width: 300px;
+    height: 300px;
+    left: -400px;
+    animation-name: slide;
+    animation-duration: 6s;
+    animation-delay: 2s;
+  }
+  .animation-container .image-container-animation img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   /*SECTION ONE */
   .section-one {
     height: auto;
