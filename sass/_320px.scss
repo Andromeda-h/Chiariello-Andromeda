@@ -585,12 +585,16 @@
             padding-left: 10;
         }
 
-        i {
+        .fa-angle-down {
             position: absolute;
             top:60;
             left: 50%;
             font-size: 20;
             opacity: .8;
+        }
+
+        .fa-angle-right {
+            display: none;
         }
 
         .span-1 {

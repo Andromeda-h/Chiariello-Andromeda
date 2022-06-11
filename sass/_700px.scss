@@ -622,7 +622,7 @@
         padding-left: 10;
     }
 
-    i {
+    .fa-angle-right {
         position: absolute;
         top:27;
         margin-left: 30;
@@ -630,11 +630,21 @@
         opacity: .8;
     }
 
+    .fa-angle-down {
+        display: none;
+    }
+
+    .fa-angle-right {
+        display: inline;
+    }
+
+
+
     .span-1 {
         font-size: 10px;
         position: absolute;
         top: 30;
-        left: 400;
+        left: 450;
     }
 }
 
