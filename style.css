@@ -1,3 +1,4 @@
+/*mixins*/
 /* Default */
 * {
   margin: 0;
@@ -15,14 +16,13 @@ a, ul, li {
   list-style: none;
 }
 
-/* Variables */
 /* Scroll Bar */
 ::-webkit-scrollbar {
   width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-  background: whitesmoke;
+  background: #d3d3d3;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -129,7 +129,7 @@ body {
   font-size: 25px !important;
 }
 
-/* Variables */
+/*mixins*/
 /* Grid Layout 320px */
 @media (min-width: 320px) {
   .grid-container {
@@ -199,7 +199,7 @@ body {
   .section-one .section-one-destacados .horizontal-bar {
     border: 1px solid rgba(0, 0, 0, 0.486);
     width: 38%;
-    color: rgba(0, 0, 0, 0.945);
+    color: rgba(0, 0, 0, 0.9450980392);
   }
   .section-one .section-one-destacados h2 {
     padding: 0 10;
@@ -261,21 +261,21 @@ body {
   .section-one .section-one-destacados-box .destacados-boxs-one .boxs-one-text h2 {
     font-size: 13px;
     text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.945);
+    color: rgba(0, 0, 0, 0.9450980392);
     font-family: "Roboto", sans-serif;
     font-weight: 400;
   }
   .section-one .section-one-destacados-box .destacados-boxs-one .boxs-one-text h3 {
     font-size: 14px;
     text-transform: uppercase;
-    color: rgba(108, 83, 200, 0.7882352941);
+    color: #6C53C8;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
   }
   .section-one .section-one-destacados-box .destacados-boxs-one .boxs-one-text p {
     font-size: 8px;
     text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.945);
+    color: rgba(0, 0, 0, 0.9450980392);
     font-family: "Roboto", sans-serif;
     font-weight: 300;
   }
@@ -398,7 +398,7 @@ body {
   }
   .section-three .carousel .overview p {
     text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.945);
+    color: rgba(0, 0, 0, 0.9450980392);
   }
   .section-three .carousel .img-box {
     position: absolute;
@@ -559,7 +559,7 @@ body {
     padding-bottom: 10;
   }
   .grid-container-cursos .cursos-container .text-container h2::first-letter {
-    color: #56439b;
+    color: #6C53C8;
   }
   .grid-container-cursos .cursos-container .boxs-container {
     display: grid;
@@ -659,7 +659,7 @@ body {
     align-items: center;
   }
   .team-container .card1-container {
-    background-color: #56439b;
+    background-color: #6C53C8;
     padding: 10;
     border-radius: 10px;
     max-width: 350px;
@@ -705,7 +705,7 @@ body {
     font-weight: bold;
     text-transform: initial;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    color: rgba(0, 0, 0, 0.945);
+    color: rgba(0, 0, 0, 0.9450980392);
   }
   .team-container .card1-container .text1-container .container-hidden-text {
     overflow: hidden;
@@ -715,7 +715,7 @@ body {
     padding-top: 20;
   }
   .team-container .card1-container .text1-container .container-hidden-text .tittle span {
-    color: rgba(245, 245, 245, 0.952);
+    color: #d3d3d3;
     opacity: 0.8;
     font-size: 23;
   }
@@ -765,7 +765,7 @@ body {
   .team-container .card1-container .text1-container .container-hidden-text .inferior-container i {
     font-size: 30px;
     margin: 15 5;
-    color: rgba(245, 245, 245, 0.952);
+    color: #d3d3d3;
     opacity: 0.8;
     transition: all 0.7s;
   }
@@ -874,17 +874,17 @@ body {
   }
   .contact-container .input-container .section-right ul li i {
     font-size: 15;
-    color: #56439b;
+    color: #6C53C8;
   }
   .contact-container .input-container .section-right a {
-    color: rgba(0, 0, 0, 0.945);
+    color: rgba(0, 0, 0, 0.9450980392);
     margin-left: 8;
     text-transform: lowercase;
     font-family: "roboto";
     font-weight: 300;
   }
 }
-/* Variables */
+/*mixins*/
 /* Grid Layout 700px */
 @media (min-width: 700px) {
   /*Grid Layout*/
@@ -1048,14 +1048,14 @@ body {
   .section-one .section-one-destacados-box .destacados-boxs-one .boxs-one-text h3, .section-one .section-one-destacados-box .destacados-boxs-one .boxs-two-text h3, .section-one .section-one-destacados-box .destacados-boxs-two .boxs-one-text h3, .section-one .section-one-destacados-box .destacados-boxs-two .boxs-two-text h3 {
     font-size: 14px;
     text-transform: uppercase;
-    color: rgba(108, 83, 200, 0.7882352941);
+    color: #6C53C8;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
   }
   .section-one .section-one-destacados-box .destacados-boxs-one .boxs-one-text p, .section-one .section-one-destacados-box .destacados-boxs-one .boxs-two-text p, .section-one .section-one-destacados-box .destacados-boxs-two .boxs-one-text p, .section-one .section-one-destacados-box .destacados-boxs-two .boxs-two-text p {
     font-size: 8px;
     text-transform: uppercase;
-    color: black;
+    color: rgba(0, 0, 0, 0.9450980392);
     font-family: "Roboto", sans-serif;
     font-weight: 300;
   }
@@ -1183,7 +1183,7 @@ body {
   }
   .section-three .carousel .overview p {
     text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.945);
+    color: rgba(0, 0, 0, 0.9450980392);
   }
   .section-three .carousel .img-box {
     position: absolute;
@@ -1345,7 +1345,7 @@ body {
     padding-bottom: 10;
   }
   .grid-container-cursos .cursos-container .text-container h2::first-letter {
-    color: #56439b;
+    color: #6C53C8;
   }
   .grid-container-cursos .cursos-container .boxs-container {
     display: grid;
@@ -1442,7 +1442,7 @@ body {
     align-items: center;
   }
   .team-container .card1-container {
-    background-color: #56439b;
+    background-color: #6C53C8;
     padding: 10;
     border-radius: 10px;
     max-width: 350px;
@@ -1489,7 +1489,7 @@ body {
     font-weight: bold;
     text-transform: initial;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    color: rgba(0, 0, 0, 0.945);
+    color: rgba(0, 0, 0, 0.9450980392);
   }
   .team-container .card1-container .text1-container .container-hidden-text {
     overflow: hidden;
@@ -1499,7 +1499,7 @@ body {
     padding-top: 20;
   }
   .team-container .card1-container .text1-container .container-hidden-text .tittle span {
-    color: rgba(245, 245, 245, 0.952);
+    color: #d3d3d3;
     opacity: 0.8;
     font-size: 23;
   }
@@ -1549,7 +1549,7 @@ body {
   .team-container .card1-container .text1-container .container-hidden-text .inferior-container i {
     font-size: 30px;
     margin: 15 5;
-    color: rgba(245, 245, 245, 0.952);
+    color: #d3d3d3;
     opacity: 0.8;
     transition: all 0.7s;
   }
@@ -1668,17 +1668,17 @@ body {
   }
   .contact-container .input-container .section-right ul li i {
     font-size: 15;
-    color: #56439b;
+    color: #6C53C8;
   }
   .contact-container .input-container .section-right a {
-    color: rgba(0, 0, 0, 0.945);
+    color: rgba(0, 0, 0, 0.9450980392);
     margin-left: 8;
     text-transform: lowercase;
     font-family: "roboto";
     font-weight: 300;
   }
 }
-/* Variables */
+/*mixins*/
 @media (min-width: 1024px) {
   /* Grid Layout 1024px */
   .grid-container {
@@ -1838,7 +1838,7 @@ body {
   .section-one .section-one-destacados-box .destacados-boxs-one .boxs-one-text h3, .section-one .section-one-destacados-box .destacados-boxs-one .boxs-two-text h3, .section-one .section-one-destacados-box .destacados-boxs-two .boxs-one-text h3, .section-one .section-one-destacados-box .destacados-boxs-two .boxs-two-text h3 {
     font-size: 14px;
     text-transform: uppercase;
-    color: rgba(108, 83, 200, 0.7882352941);
+    color: #6C53C8;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
   }
@@ -2003,7 +2003,7 @@ body {
     transition: all 0.6s;
   }
   .footer .footer-medios i:hover {
-    color: rgba(0, 0, 0, 0.945);
+    color: rgba(0, 0, 0, 0.9450980392);
     transform: scale(1.5);
     margin: 0 10;
   }
@@ -2013,7 +2013,7 @@ body {
     transition: all 0.6s;
   }
   .footer .footer-contacto i:hover {
-    color: rgba(0, 0, 0, 0.945);
+    color: rgba(0, 0, 0, 0.9450980392);
     opacity: 0.6;
   }
   /* HTML cursos.html */
@@ -2052,7 +2052,7 @@ body {
     padding-bottom: 10;
   }
   .grid-container-cursos .cursos-container .text-container h2:first-letter {
-    color: #56439b;
+    color: #6C53C8;
   }
   .grid-container-cursos .cursos-container .boxs-container {
     display: grid;
@@ -2114,7 +2114,7 @@ body {
     opacity: 0.8;
   }
   .grid-container-nosotros .titles-team-andromeda h2::first-letter {
-    color: #56439b;
+    color: #6C53C8;
     opacity: 1;
   }
   .grid-container-nosotros .titles-team-andromeda span {
@@ -2123,7 +2123,7 @@ body {
     padding-left: 10;
   }
   .grid-container-nosotros .titles-team-andromeda span::first-letter {
-    color: #56439b;
+    color: #6C53C8;
   }
   .grid-container-nosotros .titles-team-andromeda i {
     position: absolute;
@@ -2144,7 +2144,7 @@ body {
     align-items: center;
   }
   .grid-container-nosotros .team-container .card1-container {
-    background-color: #56439b;
+    background-color: #6C53C8;
     padding: 10;
     border-radius: 10px;
     max-width: 350px;
@@ -2380,7 +2380,7 @@ body {
   }
   .grid-container-contacto .contact-container .input-container .section-right ul li i {
     font-size: 20;
-    color: #56439b;
+    color: #6C53C8;
   }
   .grid-container-contacto .contact-container .input-container .section-right a {
     color: black;
@@ -2390,6 +2390,6 @@ body {
     font-weight: 300;
   }
 }
-/* Variables */
+/*mixins*/
 
 /*# sourceMappingURL=style.css.map */

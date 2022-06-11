@@ -1,0 +1,56 @@
+$colores: (
+    violeta: #6C53C8,
+    violeta-scroll: #56439b,
+    blanco-suave: #d3d3d3,
+    black: #000000f1,
+    violeta-social-icons: #6663ffd3,   
+);
+
+$primary : map-get($colores, violeta);
+$violet-scrollbar: map-get($colores , violeta-scroll);
+$white: map-get($colores, blanco-suave);
+$black : map-get($colores ,black);
+$violeta-social-icons: map-get($colores , violeta-social-icons);
+
+%flex-row-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+%flex-row-space-between {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+%flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+%flex-column-space-between {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+%transparent {
+    background: transparent;
+}
+
+/*mixins*/
+
+@mixin formater ($padding,$margin,$box-size) {
+    padding: $padding;
+    margin: $margin;
+    box-sizing: $box-size;
+}
+
+
+

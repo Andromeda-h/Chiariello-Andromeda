@@ -1,9 +1,4 @@
-/* Variables */
-
-$violet: #6C53C8;
-$violet-scrollbar:#56439b;
-$white: rgba(245, 245, 245, 0.952);
-$negro: rgba(0, 0, 0, 0.945);
+@import "variables.scss";
 
 @media (min-width: 1024px) {
 
@@ -26,8 +21,8 @@ $negro: rgba(0, 0, 0, 0.945);
     .section-one {background-image: url("../images/Component55.png");  background-position: 40%; background-repeat: no-repeat; background-size: cover; grid-area: section-one;}
     .section-two {background-image: url("../images/Component56.png"); background-position: center; background-repeat: no-repeat;  grid-area: section-two;}
     .section-three {background-image: url("../images/design6.png"); background-position: center; background-repeat: no-repeat; background-size: cover; grid-area: section-three;}
-    .footer {background-color: #6C53C8; grid-area: footer;}
-    .footer-mobile {background-color: #6C53C8; grid-area: footer-mobile;}
+    .footer {background-color: $primary; grid-area: footer;}
+    .footer-mobile {background-color: $primary; grid-area: footer-mobile;}
 
 
 /* HEADER */
@@ -175,7 +170,7 @@ $negro: rgba(0, 0, 0, 0.945);
                     h3 {
                         font-size: 14px;
                         text-transform: uppercase;
-                        color: #6c53c8c9;
+                        color: $primary;
                         font-family: 'Roboto', sans-serif;
                         font-weight: 500;
                     }
@@ -392,7 +387,7 @@ $negro: rgba(0, 0, 0, 0.945);
             }
 
             i:hover {
-                color: $negro;
+                color: $black;
                 transform: scale(1.5);
                 margin: 0 10;
             }
@@ -406,7 +401,7 @@ $negro: rgba(0, 0, 0, 0.945);
             }
 
             i:hover {
-                color: $negro;
+                color: $black;
                 opacity: .6;
             }
         }
@@ -456,7 +451,7 @@ $negro: rgba(0, 0, 0, 0.945);
             }
 
             h2:first-letter {
-                color: #56439b;
+                color: $primary;
             }
         }
 
@@ -532,7 +527,7 @@ $negro: rgba(0, 0, 0, 0.945);
             }
 
             h2::first-letter {
-                color: #56439b;
+                color: $primary;
                 opacity: 1;    
             }
 
@@ -543,7 +538,7 @@ $negro: rgba(0, 0, 0, 0.945);
             }
 
             span::first-letter {
-                color: #56439b;
+                color: $primary;
             }
 
             i {
@@ -568,7 +563,7 @@ $negro: rgba(0, 0, 0, 0.945);
             align-items: center;
 
             .card1-container {
-                background-color: #56439b;
+                background-color: $primary;
                 padding: 10;
                 border-radius: 10px;
                 max-width: 350px;
@@ -849,7 +844,7 @@ $negro: rgba(0, 0, 0, 0.945);
 
                     ul li i {
                         font-size: 20;
-                        color: #56439b;
+                        color: $primary;
                     }
 
                     a {

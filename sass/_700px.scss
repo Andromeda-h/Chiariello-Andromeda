@@ -1,9 +1,4 @@
-/* Variables */
-
-$violet: #6C53C8;
-$violet-scrollbar:#56439b;
-$white: rgba(245, 245, 245, 0.952);
-$negro: rgba(0, 0, 0, 0.945);
+@import "variables.scss";
 
 /* Grid Layout 700px */
 
@@ -30,7 +25,7 @@ $negro: rgba(0, 0, 0, 0.945);
     .section-two {background-image: url("../images/Group351.png"); background-position: center; background-repeat: no-repeat; background-size: cover; grid-area: section-two;}
     .section-three {background-image: url("../images/Component541.png"); background-position: center; background-repeat: no-repeat; background-size: cover; grid-area: section-three;}
     .footer { grid-area: footer;}
-    .footer-mobile {background-color: #6C53C8; grid-area: footer-mobile;}
+    .footer-mobile {background-color: $primary; grid-area: footer-mobile;}
 
 
 /* HEADER */ 
@@ -181,7 +176,7 @@ $negro: rgba(0, 0, 0, 0.945);
                 h3 {
                     font-size: 14px;
                     text-transform: uppercase;
-                    color: #6c53c8c9;
+                    color: $primary;
                     font-family: 'Roboto', sans-serif;
                     font-weight: 500;
                 }
@@ -189,7 +184,7 @@ $negro: rgba(0, 0, 0, 0.945);
                 p {
                     font-size: 8px;
                     text-transform: uppercase;
-                    color: black;
+                    color: $black;
                     font-family: 'Roboto', sans-serif;
                     font-weight: 300;
                 }
@@ -305,7 +300,7 @@ $negro: rgba(0, 0, 0, 0.945);
             position: absolute;
             margin: 0 auto;
             height: 2px;
-            background-color: $violet;
+            background-color: $primary;
             left: 0;
             right: 0;
             bottom: -10px;
@@ -348,7 +343,7 @@ $negro: rgba(0, 0, 0, 0.945);
         .overview {
             p {
                 text-transform: uppercase;
-                color: $negro;
+                color: $black;
             }
         }
 
@@ -411,7 +406,7 @@ $negro: rgba(0, 0, 0, 0.945);
     }
 
     .testimonial {
-        background-color: $violet;
+        background-color: $primary;
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
         height: 135px;
@@ -424,7 +419,7 @@ $negro: rgba(0, 0, 0, 0.945);
     }
 
     .overview {
-        background-color: $violet;
+        background-color: $primary;
         padding-bottom: 20px;
         border-bottom-right-radius: 5px;
         border-bottom-left-radius: 5px;
@@ -544,7 +539,7 @@ $negro: rgba(0, 0, 0, 0.945);
             }
 
             h2::first-letter {
-                color: #56439b;
+                color: $primary;
             }
         }
 
@@ -617,7 +612,7 @@ $negro: rgba(0, 0, 0, 0.945);
     }
 
     h2::first-letter,span::first-letter {
-        color: $violet;
+        color: $primary;
         opacity: 1;    
     }
 
@@ -655,7 +650,7 @@ $negro: rgba(0, 0, 0, 0.945);
     align-items: center;
 
     .card1-container {
-        background-color: #56439b;
+        background-color: $primary;
         padding: 10;
         border-radius: 10px;
         max-width: 350px;
@@ -706,7 +701,7 @@ $negro: rgba(0, 0, 0, 0.945);
                 font-weight: bold;
                 text-transform:initial;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                color: $negro;
+                color: $black;
             }
 
             .container-hidden-text {
@@ -925,11 +920,11 @@ $negro: rgba(0, 0, 0, 0.945);
 
             ul li i {
                 font-size: 15;
-                color: #56439b;
+                color: $primary;
             }
 
             a {
-                color: $negro;
+                color: $black;
                 margin-left: 8;
                 text-transform: lowercase;
                 font-family: 'roboto';
