@@ -37,7 +37,7 @@ body {overflow-x: hidden;}
 /* Nav btrs responsive */
 
 .navbar-dark  {
-    background-color: $primary;
+    background-color: rgb(110, 38, 226);
 }
 
 .form-control  {
@@ -50,6 +50,64 @@ body {overflow-x: hidden;}
 .navbar {
     padding: 0 10!important;
     margin: 0!important;
+
+    .logo-container {
+        width: 155px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        transition: all .6s;
+
+        .navbar-brand {
+            height: 100%;
+        }
+
+
+        .logo {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            top: -4px;
+            left: -110;
+            transition: all .6s;
+            height: 100%;
+
+            &{
+                left: -105;
+
+                &:hover {
+                    left: 0;
+                }
+            }
+
+            a {
+                text-transform: uppercase;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 16px;
+                font-weight: 600;  
+
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    transform:skewX(-0.4deg);
+                    width: 2px;
+                    height: 55px;
+                    background-color: rgba(255, 255, 255, 0.644);
+                    right: 77;
+                    top: 12;
+                }
+            }
+
+            img {
+                width: 74px;
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
 }
 
 .navbar-nav {
@@ -101,3 +159,4 @@ body {overflow-x: hidden;}
     border: none!important;
     font-size: 25px!important;
 }
+
