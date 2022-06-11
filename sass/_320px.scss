@@ -468,20 +468,19 @@
 .grid-container-cursos {
     display: grid;
     grid-template: 
-    "header" auto
     "nav" auto
     "cursos-container" auto
-    "footer-mobile" auto;
+    "footer-mobile" 25px;
 }
 
-.header {grid-area: header;}
 .nav {grid-area: nav;}
 .cursos-container {grid-area: cursos-container;}
 .footer-mobile {grid-area: footer-mobile;}
 
-.grid-container-cursos {
+.grid-container-cursos {   
     .cursos-container {
-        width: 100%;
+        width: 100vw;
+        height: 100%;
         display: grid;
         grid-template:
         "text-container" 110px
@@ -504,7 +503,7 @@
         .boxs-container {
             display: grid;
             justify-content: center;
-            gap: 30px;
+            gap: 80px;
 
             .boxs {
                 display: flex;
@@ -521,6 +520,10 @@
                     margin-right: 10;
                 }
             }
+
+            .boxs18 {
+                margin-bottom: 80px;
+            }
         }
 
         .text-container {grid-area: text-container;}
@@ -533,8 +536,8 @@
 /* HTML nosotros.html */
 
     .nosotros-body {
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
     }
 
     .grid-container-nosotros {
@@ -546,7 +549,6 @@
         "footer-mobile" 20px;
     }
 
-    .header {grid-area: header;}
     .nav {grid-area: nav;}
     .titles-team-andromeda {grid-area: titles-team-andromeda;}
     .team-container {grid-area: team-container;}
@@ -562,7 +564,7 @@
     .titles-team-andromeda {
         margin: 40 0 40 10;
         display: flex;
-        justify-content: left;
+        justify-content: center;
         position: relative;
 
         h2 {
@@ -585,8 +587,8 @@
 
         i {
             position: absolute;
-            top:27;
-            margin-left: 30;
+            top:60;
+            left: 50%;
             font-size: 20;
             opacity: .8;
         }
@@ -594,13 +596,14 @@
         .span-1 {
             font-size: 10px;
             position: absolute;
-            top: 30;
-            left: 400;
+            top: 90px;
+            left: 50%;
+            transform: translateX(-50%);
         }
     }
 
     /*animaciones*/        
-    .animate__animated.animate__shakeX {
+    .animate__animated.animate__shakeY {
         --animate-duration: 3s;
     }
 
