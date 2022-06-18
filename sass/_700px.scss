@@ -249,33 +249,40 @@
     .section-two {
         display: grid;
         grid-template: 
-        "section-two-div-one" 300px
-        "section-two-div-two" 300px
-        "section-two-div-three" 300px;
+        "section-two-div-one" auto
+        "section-two-div-two" auto
+        "section-two-div-three" auto;
+
+        .divs-all {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            max-width: 600px;
+            margin: 0 auto;
+    
+            img {
+                padding: 40;
+                width: 40vw;
+            }
+    
+            p {
+                font-size: 11;
+                font-family: 'Inter', sans-serif;
+                text-align: center;
+                padding:40;
+            }
+        }
+
+        .section-two-div-two {
+            display: flex;
+            flex-direction: row-reverse;
+        }
     }
 
     .section-two-div-one { grid-area: section-two-div-one;}
     .section-two-div-two { grid-area: section-two-div-two; display: flex; flex-direction: row-reverse;}
     .section-two-div-three { grid-area: section-two-div-three;}
 
-    .divs-all {
-        display: flex;
-        align-items: center;
-        max-width: 600px;
-        margin: 0 auto;
-
-        img {
-            padding: 40;
-            width: 700px;
-        }
-
-        p {
-            font-size: 11;
-            font-family: 'Inter', sans-serif;
-            text-align: center;
-            padding:40;
-        }
-    }
 
 
 /* SECTION THREE */ 
@@ -1149,19 +1156,4 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
