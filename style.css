@@ -970,7 +970,7 @@ body {
   }
   .team-container .card1-container .text1-container .container-hidden-text {
     overflow: hidden;
-    padding-top: 50;
+    padding: 45;
   }
   .team-container .card1-container .text1-container .container-hidden-text .tittle p {
     padding-top: 20;
@@ -3245,55 +3245,5 @@ body {
   }
 }
 /*mixins*/
-.iframe-three {
-  z-index: 999;
-  position: relative;
-}
-
-.progress-loader {
-  position: absolute;
-  top: -400;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 96px;
-  height: 17.6px;
-  border-radius: 16px;
-  color: #6c53c8;
-  border: 1.6px solid;
-  position: relative;
-  z-index: 1000;
-  animation: opacity-anime 11s;
-  animation-fill-mode: forwards;
-}
-.progress-loader::before {
-  content: "";
-  position: absolute;
-  margin: 1.6px;
-  inset: 0 100% 0 0;
-  border-radius: inherit;
-  background: currentColor;
-  animation: progress-pf82op 11s;
-}
-
-@keyframes progress-pf82op {
-  100% {
-    inset: 0;
-  }
-}
-@keyframes opacity-anime {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-audio {
-  position: absolute;
-  z-index: 1000;
-  right: 10;
-  bottom: 11;
-  width: 110;
-}
 
 /*# sourceMappingURL=style.css.map */
